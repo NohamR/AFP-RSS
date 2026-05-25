@@ -1,0 +1,7 @@
+services:
+  afp-rss:
+    image: nohamr/afp-rss:latest
+    container_name: afp-rss
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
