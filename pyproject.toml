@@ -1,0 +1,14 @@
+[project]
+name = "afp-rss"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bs4>=0.0.2",
+    "fastapi>=0.136.3",
+    "feedgen>=1.0.0",
+    "requests>=2.34.2",
+    "schedule>=1.2.2",
+    "uvicorn>=0.48.0",
+]
