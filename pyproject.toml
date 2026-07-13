@@ -10,5 +10,5 @@ dependencies = [
     "feedgen>=1.0.0",
     "requests>=2.34.2",
     "schedule>=1.2.2",
-    "uvicorn>=0.50.0",
+    "uvicorn>=0.51.0",
 ]
